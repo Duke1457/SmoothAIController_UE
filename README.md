@@ -39,7 +39,7 @@ An AI controller for smooth turning that allows AIs to rotate toward target acto
 - In your AI character Blueprint, set AIController class to SmoothAIController
 
 ## Usage
-You can use the build in **SetFocus()**, **SetFocalPoint()** and **ClearFocus()** functions, as the code replaces those function with its own code
+You can use the build-in **SetFocus()**, **SetFocalPoint()** and **ClearFocus()** functions, as the code replaces those function with its own code
 
 ## License
 ### MIT License
