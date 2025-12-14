@@ -44,3 +44,6 @@ You can use the build in **SetFocus()**, **SetFocalPoint()** and **ClearFocus()*
 ## License
 ### MIT License
 feel free to use, modify, and integrate it into your UE5/UE4 projects
+
+## Keywords
+Unreal Engine AI controller, UE5 AI controller, UE4 AI controller, smooth AI rotation, AI focus controller, blueprint AI controller, AI interpolation, AI turning, AI yaw pitch rotation, AI character movement, Unreal Engine AI, UE5 AI blueprint, UE4 AI blueprint, smooth rotation AI, custom AI controller UE5, custom AI controller UE4, UE5 AI controller fix, UE4 AI controller fix
