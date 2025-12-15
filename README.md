@@ -31,7 +31,7 @@ An AI controller for smooth turning that allows AIs to rotate toward target acto
 - Changes focus behavior to allow pitch changes, fixing the "AI only rotates in yaw" problem
 
 ## Installation
-- Copy SmoothAIController.h and SmoothAIController.cpp into your project’s Source folder
+- Copy the **Public** and **Private** folders into your project’s Source folder
 - In your AI characters settings set:
   ```
   bUseControllerRotationYaw = true;
