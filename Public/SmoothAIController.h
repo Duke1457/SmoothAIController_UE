@@ -59,13 +59,13 @@ private:
     UFUNCTION(BlueprintCallable, Category = "Smooth Focus")
     void RandomizeSmoothFocusSettingsWithDegrees(float MinInterpSpeed, float MaxInterpSpeed, const TArray<EInterpType_Enum>& AllowedInterpTypes, float MinDegreesPerSec, float MaxDegreesPerSec);
 
-    UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Smooth Focus", meta = (AllowPrivateAccess = "true", ClampMin = "0.001", ClampMax = "250"))
+    UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Smooth Focus | Interpolation", meta = (AllowPrivateAccess = "true", ClampMin = "0.001", ClampMax = "250"))
     float SmoothFocusInterpSpeed;
 
-    UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Smooth Focus", meta = (AllowPrivateAccess = "true"))
+    UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Smooth Focus | Interpolation", meta = (AllowPrivateAccess = "true"))
     EInterpType_Enum InterpType;
 
-    UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Smooth Focus", meta = (AllowPrivateAccess = "true", EditCondition = "InterpType == EInterpType_Enum::ConstantSpeed", EditConditionHides, ClampMin = "1.0", ClampMax = "360.0"))
+    UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Smooth Focus | Interpolation", meta = (AllowPrivateAccess = "true", EditCondition = "InterpType == EInterpType_Enum::ConstantSpeed", EditConditionHides, ClampMin = "1.0", ClampMax = "360.0"))
     float DegreesPerSecond;
 
     UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Smooth Focus | Eye Level", meta = (AllowPrivateAccess = "true", ClampMin = "0.0", ClampMax = "200"))
@@ -74,3 +74,4 @@ private:
     UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Smooth Focus | Eye Level", meta = (AllowPrivateAccess = "true", ClampMin = "0.0", ClampMax = "200"))
     float Other_EyeLevelHeightOffsetRelative;
 };
+
