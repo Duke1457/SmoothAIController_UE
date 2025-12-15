@@ -28,7 +28,7 @@ An AI controller for smooth turning that allows AIs to rotate toward target acto
     - Random degrees per second between min/max
    
 ## Fixes
-- Changes focus behavior to allow pitch changes, fixing the "AI only rotates in yaw" problem
+- Changes focus behavior to allow pitch changes when looking at a target point, fixing the "AI only rotates in yaw" problem
 
 ## Installation
 - Copy the **Public** and **Private** folders into your project’s Source folder
